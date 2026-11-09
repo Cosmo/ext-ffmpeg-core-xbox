@@ -44,8 +44,8 @@ def main():
     (share / "SOURCE.txt").write_text(
         "This software uses FFmpeg under the GNU LGPL version 2.1 or later.\n"
         "This software is based in part on the work of the Independent JPEG Group.\n"
-        f"Build recipe: https://github.com/KytyPS5/ext-ffmpeg-core/tree/{revision}\n"
-        f"Source: https://github.com/KytyPS5/ext-ffmpeg-core/releases/download/{revision[:12]}/ffmpeg-source-{args.name}.tar.gz\n"
+        f"Build recipe: https://github.com/Cosmo/ext-ffmpeg-core-xbox/tree/{revision}\n"
+        f"Source: https://github.com/Cosmo/ext-ffmpeg-core-xbox/releases/download/{revision[:12]}/ffmpeg-source-{args.name}.tar.gz\n"
         f"vcpkg revision: {vcpkg_revision}\nTriplet: {args.triplet}\n",
         encoding="utf-8",
     )

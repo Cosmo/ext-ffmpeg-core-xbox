@@ -44,7 +44,7 @@ if(NOT FFMPEG_PREBUILT_DIR)
 	set(FFMPEG_ZIP_PATH "${CMAKE_BINARY_DIR}/externals/${FFMPEG_GIT_SHA}-${FFMPEG_PREBUILTS_NAME}")
 	if(NOT EXISTS "${FFMPEG_ZIP_PATH}")
 		message(STATUS "Downloading FFmpeg libraries...")
-		file(DOWNLOAD https://github.com/KytyPS5/ext-ffmpeg-core/releases/download/${FFMPEG_GIT_SHA}/${FFMPEG_PREBUILTS_NAME}
+		file(DOWNLOAD https://github.com/Cosmo/ext-ffmpeg-core-xbox/releases/download/${FFMPEG_GIT_SHA}/${FFMPEG_PREBUILTS_NAME}
 			"${FFMPEG_ZIP_PATH}" SHOW_PROGRESS STATUS FILE_STATUS)
 		list(GET FILE_STATUS 0 STATUS_CODE)
 		if(NOT STATUS_CODE EQUAL 0)
